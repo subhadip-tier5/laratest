@@ -19,10 +19,7 @@ class ListsController extends Controller
     
     public function update($slug, Request $request){
 //        dd($slug);
-        Testlist::where('slug', $slug)->update(
-                array('title' => $request->input('title')
-                )
-        );
+        Testlist::where('slug', $slug)->update(array('title' => $request->input('title')));
         return redirect('lists');
     }
 }
