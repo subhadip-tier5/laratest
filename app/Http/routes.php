@@ -23,4 +23,5 @@ Route::get('/lists/{slug}', 'ListsController@show');
 Route::put('/lists/{slug}', 'ListsController@update');
 
 //Route::model('customer', 'App\Customer');
-Route::get('/customers', 'CustomerController@index');
+Route::get('/customers', 'CustomersController@index');
+Route::get('/customer/{id}', 'CustomersController@show');
