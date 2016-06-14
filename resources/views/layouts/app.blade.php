@@ -49,6 +49,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
                     <li><a href="{{ url('/lists') }}">Lists</a></li>
+                    <li><a href="{{ url('/customers') }}">Customers</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->

@@ -19,7 +19,8 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/lists', 'ListsController@index');
-Route::get('/lists/{name}', function($name){
-    return view('list', compact('name'));
-});
+Route::get('/lists/{slug}', 'ListsController@show');
 Route::put('/lists/{slug}', 'ListsController@update');
+
+//Route::model('customer', 'App\Customer');
+Route::get('/customers', 'CustomerController@index');
