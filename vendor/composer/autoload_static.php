@@ -50,6 +50,7 @@ class ComposerStaticInit03a4eb2a3e5ad72b3733cc9583b3f5ba
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'SuperClosure\\' => 13,
+            'Subhadip\\Products\\' => 18,
         ),
         'P' => 
         array (
@@ -170,6 +171,10 @@ class ComposerStaticInit03a4eb2a3e5ad72b3733cc9583b3f5ba
         'SuperClosure\\' => 
         array (
             0 => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src',
+        ),
+        'Subhadip\\Products\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/subhadip/products/src',
         ),
         'Psy\\' => 
         array (

@@ -1,0 +1,12 @@
+{
+    "name": "subhadip/products",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "subhadip-sahoo",
+            "email": "subhadip.sahoo1988@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
