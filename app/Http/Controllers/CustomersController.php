@@ -15,6 +15,7 @@ class CustomersController extends Controller
 //        abort(403, 'Unauthorized action.');
 //        Log::info('testing for customer section');
         $customers = $customer->all();
+        echo test('tttttt');
 //        dd($customers);
         return view('customers', compact('customers'));
     }

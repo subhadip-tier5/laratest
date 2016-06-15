@@ -2,14 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/wamp/www/php/laravel/laratest/app/Http/routes.php</file>
-            <file>file:/D:/wamp/www/php/laravel/laratest/database/seeds/ListsTableSeeder.php</file>
-            <file>file:/D:/wamp/www/php/laravel/laratest/database/migrations/2016_06_12_135135_create_lists_table.php</file>
-            <file>file:/D:/wamp/www/php/laravel/laratest/app/Http/Controllers/ListsController.php</file>
-            <file>file:/D:/wamp/www/php/laravel/laratest/app/Test_list.php</file>
-            <file>file:/D:/wamp/www/php/laravel/laratest/resources/views/list.blade.php</file>
-            <file>file:/D:/wamp/www/php/laravel/laratest/resources/views/lists.blade.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
