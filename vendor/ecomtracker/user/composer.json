@@ -1,0 +1,25 @@
+{
+  "name": "ecomtracker/user",
+  "description": "user package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrew Wolf",
+      "email": "a.james.wolf@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/Ecomtracker/User/Providers"
+    ],
+    "psr-0": {
+      "Ecomtracker\\User\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

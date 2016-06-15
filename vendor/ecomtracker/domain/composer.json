@@ -1,0 +1,19 @@
+{
+  "name": "ecomtracker/domain",
+  "description": "Ecomtracker Domain Package",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/Ecomtracker/Domain/Providers"
+    ],
+    "psr-0": {
+      "Ecomtracker\\Domain\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

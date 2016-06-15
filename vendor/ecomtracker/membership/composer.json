@@ -1,0 +1,19 @@
+{
+    "name": "ecomtracker/membership",
+    "description": "membership packages",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jakerator",
+            "email": "jakerator1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ecomtracker\\Membership\\": "src/Ecomtracker/Membership/"
+        }
+
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}

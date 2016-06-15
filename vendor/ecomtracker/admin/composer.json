@@ -1,0 +1,19 @@
+{
+  "name": "ecomtracker/admin",
+  "description": "Admin package",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/Ecomtracker/Admin/Providers"
+    ],
+    "psr-0": {
+      "Ecomtracker\\Admin\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

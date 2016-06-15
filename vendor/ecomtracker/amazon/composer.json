@@ -1,0 +1,19 @@
+{
+  "name": "ecomtracker/amazon",
+  "description": "Amazon Integration Package",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/Ecomtracker/Amazon/Providers"
+    ],
+    "psr-0": {
+      "Ecomtracker\\Amazon\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

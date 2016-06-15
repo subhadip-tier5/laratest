@@ -1,0 +1,25 @@
+{
+  "name": "ecomtracker/venue",
+  "description": "venue package houses abstract sales venue object and related",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrew Wolf",
+      "email": "a.james.wolf@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/Ecomtracker/Venue/Providers"
+    ],
+    "psr-0": {
+      "Ecomtracker\\Venue\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

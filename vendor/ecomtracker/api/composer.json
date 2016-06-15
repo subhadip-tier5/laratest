@@ -1,0 +1,20 @@
+{
+  "name": "ecomtracker/api",
+  "description": "Ecomtracker Api Package",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+  },
+  "require-dev": {
+    "zircote/swagger-php": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Ecomtracker/Api/Providers"
+    ],
+    "psr-0": {
+      "Ecomtracker\\Api\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

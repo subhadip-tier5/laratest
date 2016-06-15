@@ -1,0 +1,19 @@
+{
+    "name": "ecomtracker/tracking",
+    "description": "product tracking packages",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jakerator",
+            "email": "jakerator1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ecomtracker\\Tracking\\": "src/Ecomtracker/Tracking/"
+        }
+
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}

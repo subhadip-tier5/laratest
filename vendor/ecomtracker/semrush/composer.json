@@ -1,0 +1,22 @@
+{
+  "name": "ecomtracker/semrush",
+  "description": "Semrush Integration Package",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+    "seostats/seostats": "^2.5",
+    "guzzlehttp/guzzle": "^6.2",
+    "silktide/semrush-api": "^0.4.6"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+      "src/Ecomtracker/Semrush/Providers"
+    ],
+    "psr-0": {
+      "Ecomtracker\\Semrush\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
